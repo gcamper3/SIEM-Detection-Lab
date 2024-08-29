@@ -29,8 +29,9 @@ Step 5: Setup Azure Sentenial to visualize the attack data <br>
 Step 6: To get a more detailed log of attackers I implemented a <a href= https://github.com/gcamper3/SIEM-Detection-Lab/blob/main/powershellscript.txt/>PowerShell Script</a> <br>
 Step 7: I ran the query from earlier to find who has tried to attack the environment and this was the result 
 ![logs](https://github.com/user-attachments/assets/b257d583-5c87-4f00-a113-2337e5ea856e)<br>
-Step 8: To better visualize the data I created the following query(ref 1) and created a visual map(ref 2) with Azure Sentinal to show where attacks were coming from <br>
+Step 8: Leveraged Azure Sentinel to develop and execute a KQL query to identify and analyze failed RDP connection attempts targeting a honeypot server. The query provided valuable insights into the geographic distribution of attackers and the frequency of attempted intrusions. <br>
 (ref 1) ![qA18fco](https://github.com/user-attachments/assets/0bfe62d7-0933-4449-a4d4-1cb136e80ea5)<br>
+Step 9: To better visualize the data from ref 1 I created a map in Microsoft Sentinal to show the areas of attack on a world map. The color of the corresponding area ranges from green(least) to red(most) attackers.<br>
 (ref 2) ![FAILED_RDPWORLD_MAP](https://github.com/user-attachments/assets/8897a21b-8a06-4d37-b1f2-10257477c193)<br>
 
 
