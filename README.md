@@ -26,7 +26,7 @@ Step 3: To track all the attacks I created log analytics to understand the data 
 <br>
 Step 4: Connect the VM to the log analytics <br>
 Step 5: Setup Azure Sentenial to visualize the attack data <br>
-Step 6: To get a more detailed log of attackers I implemented a <a href= https://github.com/gcamper3/SIEM-Detection-Lab/blob/main/powershellscript.txt/>PowerShell script</a> <br>
+Step 6: To get a more detailed log of attackers I implemented a <a href= https://github.com/gcamper3/SIEM-Detection-Lab/blob/main/powershellscript.txt/>PowerShell Script</a> <br>
 Step 7: I ran the query from earlier to find who has tried to attack the environment and this was the result 
 ![logs](https://github.com/user-attachments/assets/b257d583-5c87-4f00-a113-2337e5ea856e)<br>
 Step 8: To better visualize the data I created the following query(ref 1) and created a visual map(ref 2) with Azure Sentinal to show where attacks were coming from <br>
