@@ -31,7 +31,7 @@ Step 7: I ran the query from earlier to find who has tried to attack the environ
 ![logs](https://github.com/user-attachments/assets/b257d583-5c87-4f00-a113-2337e5ea856e)<br>
 Step 8: Leveraged Azure Sentinel to develop and execute a KQL query to identify and analyze failed RDP connection attempts targeting a honeypot server. The query provided valuable insights into the geographic distribution of attackers and the frequency of attempted intrusions. <br>
 (ref 1) ![qA18fco](https://github.com/user-attachments/assets/0bfe62d7-0933-4449-a4d4-1cb136e80ea5)<br>
-Step 9: To better visualize the data from ref 1 I created a map in Microsoft Sentinal to show the areas of attack on a world map. The color of the corresponding area ranges from green(least) to red(most) attackers.<br>
-(ref 2) ![FAILED_RDPWORLD_MAP](https://github.com/user-attachments/assets/8897a21b-8a06-4d37-b1f2-10257477c193)<br>
+Step 9: To better visualize the data from ref 1 I created a map in Microsoft Sentinal to show the areas of attack on a world map. The size of the circle corresponds with the location of the attacks and how many times they have attempted to brute force.<br>
+(ref 2)![FAILED_RDPWORLD_MAP](https://github.com/user-attachments/assets/0f97b96d-0d83-4e81-b620-a19467c1776c) <br>
 
 
